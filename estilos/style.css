@@ -125,7 +125,7 @@ header > h1 {
 
 /* sticky header */
 menu {
-    height: 77px;
+    height: 75px;
     z-index: 100;
     background: linear-gradient(to top, rgb(24, 24, 24), rgb(12, 12, 12));
     border-bottom: 4px solid rgba(135, 60, 255, 0.555);
@@ -238,7 +238,7 @@ section.projetos > div > h3 {
 }
 
 .projetos > div > p {
-    font: 550 1em "Raleway", arial, helvetica, sans-serif;
+    font: 500 1em "Raleway", arial, helvetica, sans-serif;
     line-height: 18px;
 }
 
@@ -248,7 +248,8 @@ details.descrição {
 
 summary {
     font-weight: 600;
-    font-family: "Raleway", arial, helvetica, sans-serif;   
+    font-family: "Raleway", arial, helvetica, sans-serif;  
+    margin: 5px 0 5px 0; 
 }
 
 /* sobre */
@@ -340,9 +341,16 @@ div.contatos {
     margin: 20px;
 }
 
-div.contatos > p, div.contatos > p > a#email-link {
+div.contatos > p {
     color: rgba(255, 255, 255, 0.336);
     font: 550 0.9em "Raleway", arial, helvetica, sans-serif;
+    text-decoration: none;
+    height: 20px;
+}
+
+a#email-link {
+    color: rgba(255, 255, 255, 0.336);
+    font: 550 1em "Raleway", arial, helvetica, sans-serif;
     line-height: 20px;
     text-decoration: none;
 }
