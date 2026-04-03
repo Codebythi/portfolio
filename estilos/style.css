@@ -179,7 +179,7 @@ section.aviso {
 }
 
 .aviso > h2 {
-    font: 600 1.8em 'mont';
+    font: 600 1.5em 'mont';
     margin: auto 15px 10px ;
     letter-spacing: 1px;
     color: var(--primary-color);
@@ -277,8 +277,9 @@ img.foto {
 }
 
 .introdução  h2 {
-    font: normal 2em  'mont', arial, helvetica, sans-serif;
+    font: normal 1.9em  'Montserrat', arial, helvetica, sans-serif;
     color: rgb(102, 36, 209);
+    margin-bottom: 3px;
 }
 
 .introdução  p {
