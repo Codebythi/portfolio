@@ -1,2 +1,2 @@
 # portfolio
-portfólio adaptado com flex-box, grid e midia queren
+portfólio adaptado com flex-box, grid e midia query, programado com html css e javascript
