@@ -20,7 +20,7 @@
     }
 
     header  > h1 {
-        font: normal clamp(4em, 6vw, 6em) 'Montserrat', arial, helvetica, sans-serif;
+        font: normal clamp(4em, 6.3vw, 6.3em) 'Montserrat', arial, helvetica, sans-serif;
         align-self: center;
         transform: translate(0, -15px);
         letter-spacing: 3px;
