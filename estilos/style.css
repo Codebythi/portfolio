@@ -275,7 +275,7 @@ section#sobre > img {
 
 img.foto {
     width: 160px;
-    margin: 20px auto 30px auto;
+    margin: 40px auto 30px auto;
     padding: 2px;
     display: block;
     border-radius: 100%;
@@ -289,8 +289,9 @@ img.foto {
 }
 
 .introdução  p {
-    font: 500 0.9em "Raleway", arial, helvetica, sans-serif;
+    font: 500 1em "Raleway", arial, helvetica, sans-serif;
     letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.877);
 }
 
 /* skills */
@@ -350,7 +351,7 @@ div.contatos {
 
 div.contatos > p {
     color: rgba(255, 255, 255, 0.336);
-    font: 550 0.9em "Raleway", arial, helvetica, sans-serif;
+    font: 550 1em "Raleway", arial, helvetica, sans-serif;
     text-decoration: none;
     height: 22px;
 }
@@ -379,7 +380,7 @@ footer > div.contatos > p.criador {
 
 div.contatos > p.numero {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .icones {
