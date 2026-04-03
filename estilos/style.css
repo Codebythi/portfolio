@@ -351,13 +351,13 @@ div.contatos > p {
 
 a#email-link {
     color: rgba(255, 255, 255, 0.336);
-    font: 550 1em "Raleway", arial, helvetica, sans-serif;
+    font: 550 1.1em "Raleway", arial, helvetica, sans-serif;
     line-height: 20px;
     text-decoration: none;
 }
 
 footer > div.contatos > p.criador {
-    color: rgba(255, 255, 255, 0.788);
+    color: rgba(255, 255, 255, 0.685);
 }
 
 .contatos > p > a.creator {
