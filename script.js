@@ -43,6 +43,39 @@ window.addEventListener('scroll', function() {
   }
 });
 
+// proteção contra span e mailto para enviar uma mensagem pro email
 const user = "codebythi";
 const domain = "gmail.com";
 document.getElementById("email-link").href = `mailto:${user}@${domain}`;
+
+// criando uma animação de abrir e fechar no details
+document.querySelectorAll('details.descrição').forEach(detail => {
+  const inner = detail.querySelector('.content-inner');
+  const summary = detail.querySelector('summary');
+
+  summary.addEventListener('click', e => {
+    e.preventDefault();
+
+    if (detail.open) {
+      inner.style.maxHeight = inner.scrollHeight + 'px';
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          inner.style.maxHeight = '0';
+        });
+      });
+      inner.addEventListener('transitionend', () => {
+        detail.open = false;
+      }, { once: true });
+    } else {
+      detail.open = true;
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          inner.style.maxHeight = inner.scrollHeight + 'px';
+        });
+      });
+      inner.addEventListener('transitionend', () => {
+        inner.style.maxHeight = 'none';
+      }, { once: true });
+    }
+  });
+});
