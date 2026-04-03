@@ -117,7 +117,7 @@ header > h1 {
     text-align: center;
     justify-self: center;
     letter-spacing: 1.5px;
-    font: 550 2.2em 'Montserrat', arial, helvetica, sans-serif;
+    font: 550 2.5em 'Montserrat', arial, helvetica, sans-serif;
     text-shadow: 0.1px 0.1px 4px var(--color-shadow);
     line-height: 45px;
     transform: translate(0, -20px);
