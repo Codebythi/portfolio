@@ -293,6 +293,7 @@ img.foto {
     font: 500 1em "Raleway", arial, helvetica, sans-serif;
     letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.932);
+    margin-bottom: 20px;
 }
 
 /* skills */
