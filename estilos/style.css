@@ -238,7 +238,7 @@ section.projetos > div > h3 {
     color: rgb(238, 237, 237);
 }
 
-.projetos > div > p {
+.projetos > div > p, details > p {
     font: 500 0.9em "Raleway", arial, helvetica, sans-serif;
     line-height: 18px;
 }
