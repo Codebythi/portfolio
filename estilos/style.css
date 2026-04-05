@@ -241,7 +241,7 @@ section.projetos > div > h3 {
 .projetos > div > p, details > .content-inner > p {
     font: 500 0.9em "Raleway", arial, helvetica, sans-serif;
     line-height: 18px;
-    letter-spacing: 0.9px;
+    letter-spacing: 0.7px;
 }
 
 details.descrição {
