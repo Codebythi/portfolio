@@ -17,7 +17,7 @@ navLinks.forEach(link => {
     if (isMobile) {
       extraOffset = href === '#sobre' ? 70 : 110; //inicio da rolagem mobile
     } else {
-      extraOffset = href === '#sobre' ? 60 : 20; //inicio da rolagem telas maiores
+      extraOffset = href === '#sobre' ? 70 : 80; //inicio da rolagem telas maiores
     }
 
     const targetPosition = target.getBoundingClientRect().top + window.scrollY - menuHeight - extraOffset;
@@ -38,7 +38,7 @@ window.addEventListener('scroll', function() {
   
   // Offset diferente para PC e mobile
   const isDesktop = window.matchMedia('(min-width: 1024px)').matches;
-  const offset = isDesktop ? 330 : 80;
+  const offset = isDesktop ? 240 : 80;
 
   if (window.scrollY > headerBottom - offset) {
     menu.classList.add('fixo');
