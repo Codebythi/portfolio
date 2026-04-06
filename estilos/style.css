@@ -343,7 +343,7 @@ footer {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(106, 52, 194);
+    background-color: blueviolet;
     width: 100%;
     padding: 6px 10px 0px 0px;
 }
