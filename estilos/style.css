@@ -322,7 +322,6 @@ div.info {
     font-size: clamp(0.7em, 3.4vw, 1.1em);
     letter-spacing: 1px;
     text-align: center;
-    font-weight: 500;
 }
 
 .info > img {
