@@ -291,7 +291,7 @@ img.foto {
 }
 
 .introdução  p {
-    font: 500 1em "Raleway", arial, helvetica, sans-serif;
+    font: normal 1em "Raleway", arial, helvetica, sans-serif;
     letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.842);
     margin-bottom: 20px;
@@ -322,6 +322,7 @@ div.info {
     font-size: clamp(0.7em, 3.4vw, 1.1em);
     letter-spacing: 1px;
     text-align: center;
+    font-weight: 500;
 }
 
 .info > img {
