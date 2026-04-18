@@ -277,7 +277,7 @@ section#sobre > img {
 
 img.foto {
     width: 155px;
-    margin: 35px auto 45px auto;
+    margin: 45px auto 35px auto;
     padding: 2px;
     display: block;
     border-radius: 100%;
@@ -294,7 +294,7 @@ img.foto {
     font: 500 0.9em "Raleway", arial, helvetica, sans-serif;
     letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 0.89);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* skills */
