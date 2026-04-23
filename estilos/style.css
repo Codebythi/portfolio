@@ -276,7 +276,7 @@ section#sobre > img {
 }
 
 img.foto {
-    width: 155px;
+    width: 160px;
     margin: 40px auto 35px auto;
     padding: 2px;
     display: block;
@@ -291,7 +291,7 @@ img.foto {
 }
 
 .introdução  p {
-    font: 500 0.9em "Raleway", arial, helvetica, sans-serif;
+    font: normal 1em "Raleway", arial, helvetica, sans-serif;
     letter-spacing: 0.4px;
     color: rgba(0, 0, 0, 0.89);
     margin-bottom: 20px;
@@ -323,7 +323,7 @@ div.info {
     color: rgba(0, 0, 0, 0.911);
     letter-spacing: 1px;
     text-align: center;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .info > img {
