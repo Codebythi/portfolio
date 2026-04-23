@@ -291,7 +291,7 @@ img.foto {
 }
 
 .introdução  p {
-    font: normal 1em "Raleway", arial, helvetica, sans-serif;
+    font: normal 0.9em "Raleway", arial, helvetica, sans-serif;
     letter-spacing: 0.4px;
     color: rgba(0, 0, 0, 0.89);
     margin-bottom: 20px;
