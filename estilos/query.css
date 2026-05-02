@@ -255,7 +255,7 @@
         background: white;
         justify-content: center;
         flex-flow: column nowrap;
-        margin: 20px 10px 10px 10px;
+        margin: 10px 5px 5px 5px;
     }
 
     div.info:hover {
