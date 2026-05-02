@@ -243,7 +243,7 @@
         justify-content: start;
         padding-top: 10px;
         border-top: 2.3px solid rgba(24, 24, 24, 0.452);
-        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .skills > h2 {
@@ -259,8 +259,8 @@
         margin: 10px;
     }
 
-    div.info:hover {
-        transform: scale(0.95);
+    div.info:active {
+        transform: scale(0.90);
     }
 
     div.info > h3 {
