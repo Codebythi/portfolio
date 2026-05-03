@@ -243,6 +243,7 @@
         justify-content: start;
         padding-top: 10px;
         border-top: 2.3px solid rgba(24, 24, 24, 0.452);
+        margin-bottom: 20px;
     }
 
     .skills > h2 {
@@ -255,11 +256,11 @@
         background: white;
         justify-content: center;
         flex-flow: column nowrap;
-        margin: 20px 10px 10px 10px;
+        margin: 10px;
     }
 
-    div.info:hover {
-        transform: scale(0.95);
+    div.info:active {
+        transform: scale(0.90);
     }
 
     div.info > h3 {

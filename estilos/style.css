@@ -327,8 +327,8 @@ div.info {
   margin-top: 30px;
 }
 
-div.info:hover {
-  transform: scale(0.92);
+div.info:active {
+  transform: scale(0.80);
 }
 
 .info > p {
