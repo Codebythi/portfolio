@@ -251,7 +251,7 @@
     }
 
     div.info {
-        width: 26%;
+        width: 30%;
         background: white;
         justify-content: center;
         flex-flow: column nowrap;
