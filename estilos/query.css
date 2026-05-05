@@ -238,7 +238,7 @@
     div.skills {
         width: 100%;
         margin-left: 0;
-        margin-bottom: 10;
+        margin-bottom: 0;
         flex-flow: row wrap;
         justify-content: start;
         padding-top: 30px;
