@@ -259,9 +259,13 @@
     }
 
     div.info:active {
-        transform: scale(0.90);
+        transform: scale(0.85);
     }
 
+    div.info:hover {
+        transform: scale(0.90);
+    }
+    
     div.info > h3 {
         text-align: center;
     }
