@@ -333,7 +333,7 @@ div.info:active {
 
 .info > p {
     font-size: clamp(0.7em, 3.4vw, 1.1em);
-    color: rgba(0, 0, 0, 0.863);
+    color: rgba(0, 0, 0, 0.815);
     letter-spacing: 1px;
     text-align: center;
 }
