@@ -241,7 +241,7 @@
         margin-bottom: 0;
         flex-flow: row wrap;
         justify-content: start;
-        padding-top: 40px;
+        padding-top: 30px;
         border-top: 2.3px solid rgba(24, 24, 24, 0.452);
     }
 
@@ -265,7 +265,7 @@
     div.info:hover {
         transform: scale(0.90);
     }
-    
+
     div.info > h3 {
         text-align: center;
     }
