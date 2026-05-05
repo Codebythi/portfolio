@@ -241,9 +241,8 @@
         margin-bottom: 0;
         flex-flow: row wrap;
         justify-content: start;
-        padding-top: 10px;
+        padding-top: 40px;
         border-top: 2.3px solid rgba(24, 24, 24, 0.452);
-        margin-bottom: 20px;
     }
 
     .skills > h2 {
